@@ -1,0 +1,51 @@
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 500px;
+  padding: 50px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+}
+
+.fullName {
+  display: flex;
+  gap: 10px;
+}
+
+.formFooter {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.formFooter p {
+  display: flex;
+  gap: 10px;
+  color: #fff;
+  align-items: center;
+}
+
+.headerName {
+  font-size: 32px;
+  text-align: center;
+  color: #fff;
+}
+
+.headerText {
+  font-size: 18px;
+  color: #ffffffad;
+  text-align: center;
+}
+
+.registerError {
+  text-align: center;
+  color: red;
+}
+
+.loginPageBtn {
+  color: rgb(145, 14, 145);
+  font-weight: 500;
+}

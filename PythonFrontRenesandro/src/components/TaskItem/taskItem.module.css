@@ -1,0 +1,52 @@
+.taskItem {
+  width: 100%;
+  display: flex;
+  border-bottom: 1.5px solid #b94de1;
+}
+
+.taskItem:hover {
+  cursor: pointer;
+}
+
+.taskId {
+  width: 30px;
+}
+
+.taskName {
+  width: 150px;
+}
+
+.taskLink {
+  width: 500px;
+}
+
+.promptsList {
+  flex: 1;
+}
+
+.options {
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.taskId,
+.taskName,
+.taskLink,
+.promptsList {
+  padding: 10px;
+  overflow: hidden;
+}
+
+.icon {
+  size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  /* padding: 4px; */
+}
+
+.icon:hover {
+  background-color: #b94de1;
+  transition: 0.3s ease;
+}

@@ -1,0 +1,15 @@
+Django==4.2.4
+django-cors-headers==4.2.0
+django-filter==23.2
+django-rest-passwordreset==1.4.1
+djangorestframework==3.14.0
+en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+openai-whisper @ git+https://github.com/openai/whisper.git@25639fc17ddc013d56c594bfbf7644f2185fad84
+Pillow==9.0.1
+psycopg2-binary==2.9.7
+PyJWT==2.3.0
+pyOpenSSL==21.0.0
+requests==2.32.3
+torch==2.5.0
+spacy
+
